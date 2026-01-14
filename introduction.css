@@ -1,0 +1,1599 @@
+.introduction{
+    height:500px;
+    width:100%;
+    display: flex;
+    column-gap: 30px;
+    margin: 100px 0px 0px 0px;
+    padding: 0px 0px 0px 0px
+}
+
+
+.text-box{
+    flex:2;
+    justify-items: center;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+}
+
+.introduction-text{
+    width:65%;
+    color:rgb(29, 31, 33);
+    font-family:"Roboto Slab", serif;
+    font-size: 1.1rem;
+    text-align: justify;
+    animation-name: color-change;
+    animation-duration: 2s;
+    margin: 10px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+
+}
+.picture-box{
+    flex:1;
+    margin: 0px 0px 0px 0px;
+}
+
+
+.profile-picture{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 150px;
+    object-position: center;
+    border-width: 5px;
+    box-shadow: 0px 0px 25px rgba(33, 49, 35, 0.997);
+}
+.profile-picture:hover{
+    border-style:inherit;
+    border-width: 2px;
+    box-shadow: 0px 0px 35px rgba(255, 57, 7, 0.997);
+    border-color: rgb(165, 0, 0);
+    cursor: pointer;
+}
+.profile-picture:active{
+    border-style:solid;
+    border-width: 2px;
+    box-shadow: 0px 0px 35px rgba(247, 18, 236, 0.997);
+    border-color: rgb(157, 10, 140);
+}
+
+
+.hello-text{
+    width: 65%;
+    font-size: 2rem;
+    font-weight: 800;
+    font-family:"Roboto Slab", serif;
+    color:rgba(8, 8, 6, 0.878);
+    animation-name:hello-slide ;
+    animation-duration: 2s;
+    z-index: -90px;
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+}
+@keyframes hello-slide{
+    from{transform: translateY(-100px)}
+
+}
+
+.name-text{
+    width: 65%;
+    color: rgb(29, 31, 33);
+    font-family:"Roboto Slab", serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color:rgb(227, 21, 10) ;
+    animation-name: slideleft;
+    animation-duration: 2s ;   
+    margin: 10px 0px 0px 0px;
+}
+
+
+@keyframes slideleft{
+    from{transform: translateX(-300px)}
+
+}
+
+
+@keyframes color-change{
+    0%{color:red}
+    25%{color:purple}
+    50%{color:blue}
+    75%{color:green}
+    100%{color:rgb(29, 31, 33)}
+
+}
+
+.button{
+    width: 65%;
+    display:flex;
+    column-gap: 30px;
+    justify-content:space-between ;
+    margin: 30px 0px 0px 0px;
+}
+
+.cv-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    width: 115px;
+    height: 35px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: .9rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s;
+
+}
+.cv-button:hover{
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.cv-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+.hire-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    width: 105px;
+    height: 35px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s;
+
+}
+.hire-button:hover{
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.hire-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+
+.aboutme-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    width: 105px;
+    height: 35px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1rem;
+    border-width: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s;
+}
+.aboutme-button:hover{
+    text-decoration: underline;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+.aboutme-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+
+.social-media{
+   display: flex;
+   width: 65%;
+   justify-content:space-between ;
+   z-index: -100;
+   margin: 40px 0px 0px 0px;
+   padding: 0px 0px 0px 0px;
+  
+}
+
+.profile-icon{
+    position: relative;
+    width:50px;
+    height: 50px;
+    box-shadow: 7px 7px 7px rgba(0,0,0,.1);
+    border-radius: 20px;
+    background-color: rgb(251, 237, 237);
+    border-width: 5px;
+    border-style: solid;
+    border-color: rgb(11, 0, 162);
+    transition: box-shadow 0.3s,border-color 0.3s;
+}
+
+.profile-icon:hover{
+  box-shadow: 7px 7px 7px rgba(0,0,0,.7);
+  border-color: rgb(227, 21, 10);
+  transition: box-shadow 0.3s,border-color 0.3s
+}
+
+.profile-icon:active{
+  box-shadow: 9px 9px 9px rgba(0,0,0,.9);
+  border-color: rgb(36, 248, 25)
+}
+
+.first-icon-text{
+    position:absolute;
+    color:rgb(227, 21, 10);
+    font-family:"Roboto Slab", serif;
+    font-size:1.3rem;
+    margin:-1px 0px 5px -8px;
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+}
+.icon:hover .first-icon-text{
+    opacity: 1;
+}
+
+.second-icon-text{
+    position:absolute;
+    color:rgb(227, 21, 10);
+    font-family:"Roboto Slab", serif;
+    font-size:1.3rem;
+    margin:-1px 0px 5px 0px;
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+}
+.icon:hover .second-icon-text{
+    opacity: 1;
+}
+
+
+.third-icon-text{
+    position:absolute;
+    color:rgb(227, 21, 10);
+    font-family:"Roboto Slab", serif;
+    font-size:1.3rem;
+    margin:-1px 0px 5px 0px;
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+}
+.icon:hover .third-icon-text{
+    opacity: 1;
+}
+
+.fourth-icon-text{
+    position:absolute;
+    color:rgb(227, 21, 10);
+    font-family:"Roboto Slab", serif;
+    font-size:1.3rem;
+    margin:-1px 0px 5px -35px;
+    font-weight: 700;
+    opacity: 0;
+    pointer-events: none;
+}
+.icon:hover .fourth-icon-text{
+    opacity: 1;
+}
+.activity{
+    color:rgb(249, 77, 38);
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:underline;
+    margin:-70px 0px 0px 0px;
+
+}
+
+.container-grid{
+    display:grid;
+    grid-template-columns: 1fr ;
+    justify-self: center;
+    justify-items: center;
+    height:auto;
+    width:70%;
+    row-gap:50px;
+    margin:35px 0px 0px 0px;
+
+}
+.grid-box{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width:60%;
+    border-color: rgb(73, 73, 74);
+    border-style:ridge;
+    border-width: 3px;
+    box-shadow: 0px 0px 20px rgb(73, 73, 74);
+
+}
+.grid-box:hover{
+    display: flex;
+    flex-direction: column;
+    height:400px;
+    width:60%;
+    border-color: rgb(42, 39, 238);
+    border-style:ridge;
+    border-width: 3.5px;
+    box-shadow: 0px 0px 30px rgb(42, 39, 238);
+
+}
+.grid-image{
+    height: 280px;
+    width: 100%;
+    background-color: black;
+
+}
+.title{
+    margin: 0px 0px 0px 0px;
+    padding:5px 0px 0px 0px;
+    text-align:center;
+    font-size: 150%;
+    color: rgb(254, 10, 10);
+}
+.grid-write{  
+    height: 120px;
+    width:100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    align-content: center;
+    color:rgb(5, 5, 5);
+    background-color:  rgba(255, 3, 3,0.1);
+
+}
+.link{  
+    height: 120px;
+    width:100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    align-content: center;
+    color: rgb(0, 0, 0);
+}
+.link:hover{  
+    height: 120px;
+    width:100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    align-content: center;
+    color: rgb(172, 9, 222);
+    text-decoration: underline;
+}
+.link:active{  
+    height: 120px;
+    width:100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif; 
+    text-align: justify;
+    align-content: center;
+    color: rgb(27, 91, 36);
+    text-decoration: none;
+}
+.written{
+    margin: 0px 5px 0px 5px;
+    
+}
+.Image{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    
+}
+
+
+@media(max-width:992px){
+
+    .introduction{
+        height:545px;
+        width:100%;
+        column-gap: 10px;
+        margin: 50px 0px 0px 0px;
+        padding: 0px 0px 0px 0px
+    }
+    
+ 
+    .text-box{
+        flex:2;
+        justify-items: center;
+        margin: 0px 0px 0px 20px;
+        padding:0px 0px 0px 0px
+    }     
+    .introduction-text{
+        width:80%;
+        font-size: 1rem;
+        
+    }
+
+    
+    .profile-picture{
+        height: 220px;
+        width:220px;
+        border-radius: 160px;
+        margin: 10px 0px 0px 0px;
+
+    }
+    
+    
+    .hello-text{
+        width:80%;
+        font-size: 1.2rem;
+        font-weight: 800;;
+    }
+    
+    .name-text{
+        width:80%;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    
+    
+    .button{
+        width: 80%;
+        column-gap: 30px;
+    }
+    
+    .cv-button{
+        width: 100px;
+        height: 35px;
+        font-size: .75rem;
+    }
+
+    .hire-button{
+        width: 100px;
+        height: 35px;
+        font-size: .8rem;
+    }
+ 
+    .aboutme-button{
+        width: 100px;
+        height: 35px;
+        font-size: .8rem;
+    }
+
+    .social-media{
+       width: 80%;
+     
+    }
+    .profile-icon{
+        width:40px;
+        height: 40px;
+        border-radius: 18px;
+    }
+    .activity{
+        font-size: 2rem;
+        margin: -60px 0px 0px 0px;
+   
+    }
+    
+    .container-grid{
+        row-gap: 50px;
+        width:70%;
+        margin:35px 0px 0px 0px; 
+    }
+    .grid-box{
+        height:300px;
+        width:75%;
+    
+    }
+    .grid-image{
+        height: 200px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 100px;
+        width:100%;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    } 
+} 
+
+
+@media(max-width:769px){
+
+    .introduction{
+        height:545px;
+        width:100%;
+        column-gap: 10px;
+        margin: 80px 0px 0px 0px;
+        padding: 0px 0px 0px 0px
+    }
+    
+      
+    .introduction-text{
+        width:80%;
+        font-size: 1rem;
+    
+    }
+
+    
+    .profile-picture{
+        height: 220px;
+        width:220px;
+        border-radius: 160px;
+        margin: 10px 0px 0px 0px;
+
+    }
+    
+    
+    .hello-text{
+        width:80%;
+        font-size: 1.2rem;
+        font-weight: 800;;
+    }
+    
+    .name-text{
+        width:80%;
+        font-weight: 700;
+        font-size: 1.2rem;
+    }
+    
+    
+    .button{
+        width: 80%;
+        column-gap: 30px;
+    }
+    
+    .cv-button{
+        width: 100px;
+        height: 35px;
+        font-size: .75rem;
+    }
+
+    .hire-button{
+        width: 100px;
+        height: 35px;
+        font-size: .8rem;
+    }
+ 
+    .aboutme-button{
+        width: 100px;
+        height: 35px;
+        font-size: .8rem;
+    }
+
+    .social-media{
+       width: 80%;
+     
+    }
+    .profile-icon{
+        width:40px;
+        height: 40px;
+        border-radius: 18px;
+    }
+    .activity{
+        font-size: 2rem;
+        margin: -60px 0px 0px 0px;
+   
+    }
+    
+    .container-grid{
+        row-gap: 50px;
+        width:70%;
+        margin:35px 0px 0px 0px; 
+    }
+    .grid-box{
+        height:300px;
+        width:75%;
+    
+    }
+    .grid-image{
+        height: 200px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 100px;
+        width:100%;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    } 
+} 
+
+@media(max-width:566px){
+    .introduction{
+        width:100%;
+        padding-top: 5%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0px 0px 0px -20px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .8rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:8%;
+        margin: 95px 220px -95px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        align-self: center;
+        border-color: rgba(244, 231, 88, 0.97) ;
+        border-style:solid;
+        border-width: 5px;
+        border-radius: 30px;
+        box-shadow: 0px 0px 20px rgba(244, 231, 88, 0.997); 
+        height: 60%; 
+        width: 500%; 
+        margin: 40px 0px 0px 15px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .hire-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .7rem;
+    }
+    .aboutme-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .7rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+     .profile-icon{
+        width:35px;
+        height: 35px;
+        border-radius: 15px;
+
+    }
+    
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px; 
+        
+     }
+    .grid-box{
+        height:300px;
+        width:60%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 200px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 100px;
+        width:100%;
+        font-size: .8rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }  
+    
+}
+
+@media(max-width:431px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+        
+
+    }
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 10px 0px 0px -14px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 65px 180px -65px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        border-width: 5px;
+        border-radius: 30px;
+        height: 70%; 
+        width: 550%; 
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .55rem;
+    }
+    .hire-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .aboutme-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;   
+        
+     }
+    .grid-box{
+        height:250px;
+        width:65%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 180px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 70px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written{
+        margin-top: 2px 5px 2px 5px;
+    } 
+    
+}
+@media(max-width:426px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 60px 180px -60px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        border-width: 5px;
+        border-radius: 30px;
+        height: 65%; 
+        width: 550%; 
+        margin: 35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .55rem;
+    }
+    .hire-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .aboutme-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;  
+        
+     }
+    .grid-box{
+        height:250px;
+        width:65%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 180px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 70px;
+        width:100%;
+        font-size: .55rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }  
+    
+}
+
+@media(max-width:413px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 65px 180px -65px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        border-width: 5px;
+        border-radius: 30px;
+        height: 70%; 
+        width: 550%; 
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 25px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .55rem;
+    }
+    .hire-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .aboutme-button{
+        width: 70px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;  
+        
+     }
+    .grid-box{
+        height:250px;
+        width:68%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 170px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }   
+    
+}
+
+
+@media(max-width:391px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 40px 170px -40px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        border-width: 5px;
+        border-radius: 30px; 
+        height: 70%; 
+        width: 550%; 
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 25px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .55rem;
+    }
+    .hire-button{
+        width: 65px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .aboutme-button{
+        width: 65px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;  
+        
+     }
+    .grid-box{
+        height:250px;
+        width:68%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 170px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }  
+    
+}
+
+
+@media(max-width:376px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.3rem;
+        text-align: center;
+        margin: 0px 0px 0px -14px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 40px 160px -40px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        align-self: center;
+        border-style:double;
+        border-width: 5px;
+        border-radius: 30px; 
+        height: 70%; 
+        width: 550%; 
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 25px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 80px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .535rem;
+    }
+    .hire-button{
+        width: 60px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .aboutme-button{
+        width: 60px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .6rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+     .profile-icon{
+        width:30px;
+        height: 30px;
+        border-radius: 13px;
+
+    }
+    
+    .activity{
+        font-size: 2rem;
+        margin-top: 10%;
+        margin-left: 0px;
+        width:100%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px;  
+        
+     }
+    .grid-box{
+        height:250px;
+        width:70%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 170px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }   
+    
+}
+
+
+@media(max-width:321px){
+    .introduction{
+        width:100%;
+        padding-top: 0%;
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        column-gap: 0px;
+
+    }
+
+    .text-box{
+        flex:1.5;
+        width:70%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        margin: -20px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .hello-text{
+        width: 100%;
+        font-size:1.5rem;
+        text-align: center;
+        font-weight: 700;
+        margin: 15px, 0px, -20px, 0px;
+        padding:0px 0px 0px 0px;
+
+    }
+    .name-text{
+        width: 110%;
+        font-weight: 700;
+        font-size: 1.2rem;
+        text-align: center;
+        margin: 10px 0px 0px -13px;
+        padding: 0px 0px 0px 0px ;
+    }
+        
+    .introduction-text{
+        width:100%;
+        font-size: .7rem;
+        font-weight: 600;
+        text-align:justify;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+    }
+    .picture-box{
+        flex:.5;
+        align-items: center;
+        height: 70%;
+        width:9%;
+        margin: 0px 140px -0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    
+    .profile-picture{
+        border-radius: 0px;
+        border-width: 5px;
+        border-radius: 30px; 
+        height: 70%; 
+        width: 550%; 
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        
+    }
+    .button{
+        width: 100%;
+        align-items: center;
+        margin: 30px 0px 0px 0px;
+        padding: 0px 0px 0px 0px ;
+        justify-content: space-around;
+    }
+    .cv-button{
+        width: 65px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .5rem;
+    }
+    .hire-button{
+        width: 50px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .5rem;
+    }
+    .aboutme-button{
+        width: 60px;
+        height: 35px;
+        font-weight: 800;
+        font-size: .5rem;
+    }
+    .social-media{
+        display: flex;
+        width: 100%;
+        justify-content:space-around;
+        margin-top: 40px;
+        margin-bottom: 0px;
+        margin-left: 0%;
+        z-index: -100;
+        
+     }
+    .activity{
+        font-size: 1.5rem;
+        margin-top: 10%;
+        margin-left: 20px;
+        width:90%;
+        text-align: center;
+    
+    }
+    .container-grid{
+        row-gap: 50px;
+        height:auto;
+        width:100%;
+        margin:35px 0px 0px 0px; 
+        
+     }
+    .grid-box{
+        height:230px;
+        width:70%;
+        margin: 0px 0px 0px 0px;
+    }
+    .grid-image{
+        height: 150px;
+        width: 100%;
+    }
+    .grid-write{  
+        height: 80px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .written{
+        margin: 2px 5px 2px 5px;
+    }  
+    
+}  

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <title>Feroj Ahmed - About</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="body.css">
+    <link rel="stylesheet" href="my-portfolio-projects.css">
+</head>
+<body>
+    <div class="header">
+        <div class="left-section">
+            Md. Feroj Ahmed
+        </div>
+        <div class="gap-section">
+            
+        </div>
+        <div class="middle-section">
+            <div class="header-items">
+                <a class="item-decoreation" href='index.html'>Home</a>
+            </div>
+            <div class="header-items">
+                <a class="item-decoreation" href='my-portfolio-about.html'>About</a>
+            </div>
+            <div class="header-items">
+                <a class="item-decoreation" href='my-portfolio-resume.html'>Resume</a>
+            </div>
+            <div class="header-items">
+                <a class="item-decoreation" href='my-portfolio-projects.html'>Works</a>
+            </div>
+            <div class="header-items">
+                <a class="item-decoreation" href='my-portfolio-blog.html'>Conferences</a>
+            </div>
+
+            <div class="header-items">
+                <a class="item-decoreation" href='my-portfolio-contacts.html'>Contacts</a>
+            </div>
+        </div>
+    </div>
+    <div class="picture-portfolio1">
+        <img class="portfolio1" src="pic-project.jpg">
+        <p class="in-class-portfolio1"> Research Work </p>
+    </div>
+    <div class="direction">
+        <div class="direction-items">
+            <div class="explore">Explore my works </div>
+            <div class="sign">&#9759;</div>
+        </div>
+    </div>
+
+    <div class="container-grid1">
+        <div class="grid-box1">
+            <div class="grid-image1">
+                <a class="link-blog" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335410">
+                    <img class = "Image1" src="picture_for_project/Pleukomia_workflow.jpg">
+                </a>
+            </div>
+            <div class = 'grid-write1'>
+                <p class="title"> Peer-reviewed Paper</p>                
+                <a class="link-blog" href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335410">
+                    <p class="written1">In-Silico discovery of Pediatric Acute-Myeloid-Leukemia (pAML) 
+                        causing druggable molecular signatures highlighting their pathogenetic processes
+                        and therapeutic agents through single-cell RNA-Seq profile analysis
+                    </p>
+                </a>
+            </div>
+            <div class = "source1">
+                <div> 
+                    <a class="link-blog"> Code & Algorithms </a>
+                </div>
+            </div>
+        </div>          
+        <div class="grid-box1">
+            <div class="grid-image1">
+                <a class="link-blog" href="https://drive.google.com/file/d/1h-E6N2wZztKhr7EbLvUCvLRvn_t77sdO/view?usp=drivesdk">
+                    <img class = "Image1" src="picture_for_project/project_table.png">
+                </a>
+            </div>
+            <div class = 'grid-write1'>
+                <p class="title">Honours Research Project</p>
+                <a class="link-blog" href="https://drive.google.com/file/d/1h-E6N2wZztKhr7EbLvUCvLRvn_t77sdO/view?usp=drivesdk">
+                    <p class="written1">"Constant price increases and unrestrained inflation pushed daily commodity
+                        merchants to alter their ways of living of life" 
+                    </p>
+                </a>
+            </div>
+            <div class = "source1">
+                <div> 
+                    <a class="link-blog"> Code & Algorithms </a>
+                </div>
+            </div>
+        </div>
+     
+    </div> 
+
+    <div class="footer-box">
+        <img class="footer-pic"  src="OIP (6).jpeg">
+        <div class="footer-text">
+            <p class="one">This whole site is designed and developed by me with raw HTML and CSS.</p>
+            <p class="one"> As I am not a front-end developer. So, there may be many mistakes</p>
+            <p class="one">If you have any suggestions fo me to improve my portfolio, feel free to <a class="last-man" href="my-portfolio-contacts.html">contact me</a>.</p>
+            <p class="one"> <span class="last-man2">Thank you </span></p>
+    
+        </div>
+    </div>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.header');
+            if (window.scrollY > 50) { 
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+</body>
+</html>

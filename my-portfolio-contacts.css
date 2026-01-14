@@ -1,0 +1,1578 @@
+
+.page-content{
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  align-items:start;
+  margin:100px 0px 0px 0px
+}
+
+
+.form {
+    flex:1;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-class{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.social-link{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  width: 100%;
+  font-family: "Roboto Slab", serif;
+  margin:0px 0px 70px 0px
+
+}
+
+.contact{
+  font-size: 2rem;
+  font-weight: 700;
+  color:rgb(0, 23, 230);
+  margin:0px 0px 30px 0px
+  
+}
+
+.Mobile-phone{
+  font-size: 1rem ;
+  
+}
+.phone{
+  color:rebeccapurple;
+  font-weight: 700;
+  font-size: 1rem
+}
+.mail{
+  color:rebeccapurple;
+  font-weight: 700;
+  font-size: 1rem
+
+}
+
+.social-contact{
+  flex:1;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  width: 60%;
+} 
+
+
+.message{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:rgb(0, 23, 230);
+    margin: 0px 0px 35px 0px;
+}
+
+.first-one{
+    height: 25px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    color: blueviolet;
+    font-weight: 700;
+    font-family:"Roboto Slab", serif;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.997);
+    font-size: 1rem;
+    border-radius: 10px;
+    margin: 0px 0px 0px 0px;
+
+
+}
+.first-one:hover{
+  height: 40px;
+  border-color: rgb(0, 237, 55);
+  border-width: 4px;
+  border-style: solid;
+  color: blueviolet;
+  font-weight: 700;
+  font-family:"Roboto Slab", serif;
+  box-shadow: 0px 0px 20px rgba(0, 237, 55, 0.997);
+  font-size: 1rem;
+  border-radius: 10px;
+
+}
+
+
+.first-one::placeholder{
+    color: gray;
+}
+
+#contactForm{
+    display:flex;
+    flex-direction: column;
+    width:75%;
+    row-gap: 15px;
+    font-family:"Roboto Slab", serif;
+}
+  .submit-button{
+    color: rgb(227, 21, 10);
+    background-color: rgba(244, 231, 88, 0.97);
+    width: 120px;
+    height: 40px;
+    font-family: "Roboto Slab", serif;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    align-self: center;
+    cursor: pointer;
+    box-shadow: 7px 7px 10px rgba(79, 68, 67, 0.3);
+    transition: box-shadow 0.3s ,background-color 0.3s , color 0.3s;
+    margin: 20px 0px 0px 0px;
+
+}
+  .submit-button:hover{
+    text-decoration:wavy;
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    background-color: rgb(227, 21, 10);
+    color: rgba(244, 231, 88, 0.97);
+}
+  .submit-button:active{
+    box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
+    color: rgb(4, 250, 12);
+    background-color: rgba(244, 231, 88, 0.97);
+
+}
+     
+
+  #waitingMessage {
+    display: none;
+    color: blue;
+    font-weight: bold;
+  }
+  #formResponse {
+    display: none;
+    color: green;
+  }
+  #formError {
+    display: none;
+    color: red;
+  }
+ 
+
+  .whatsapp{
+    box-shadow: 7px 7px 7px rgba(0,0,0,.1);
+    border-radius: 20px;
+    background-color: rgb(251, 237, 237);
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    transition: box-shadow 0.3s,border-color 0.3s
+  }
+
+  .whatsapp:hover{
+    box-shadow: 7px 7px 7px rgba(0,0,0,.7);
+    border-color: rgb(227, 21, 10);
+    transition: box-shadow 0.3s,border-color 0.3s
+  }
+
+  .whatsapp:active{
+    box-shadow: 9px 9px 9px rgba(0,0,0,.9);
+    border-color: rgb(32, 4, 248)
+  }
+
+
+  .whatsapp-text{
+      position:absolute;
+      color:rgb(227, 21, 10);
+      font-family:"Roboto Slab", serif;
+      font-size:1.3rem;
+      margin:-1px 0px 5px -13px;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+  }
+  .icon1:hover .whatsapp-text{
+      opacity: 1;
+  }
+
+  .telegram-text{
+      position:absolute;
+      color:rgb(227, 21, 10);
+      font-family:"Roboto Slab", serif;
+      font-size:1.3rem;
+      margin:-1px 0px 5px -13px;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+  }
+  .icon1:hover .telegram-text{
+      opacity: 1;
+  }
+
+
+  .skype-text{
+      position:absolute;
+      color:rgb(227, 21, 10);
+      font-family:"Roboto Slab", serif;
+      font-size:1.3rem;
+      margin:-1px 0px 5px -2px;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+  }
+  .icon1:hover .skype-text{
+      opacity: 1;
+  }
+
+  .instagram-text{
+      position:absolute;
+      color:rgb(227, 21, 10);
+      font-family:"Roboto Slab", serif;
+      font-size:1.3rem;;
+      margin:-1px 0px 5px -15px;
+      font-weight: 700;
+      opacity: 0;
+      pointer-events: none;
+  }
+  .icon1:hover .instagram-text{
+      opacity: 1;
+  }
+
+  @media(max-width:769px){
+    .picture-contact1{
+      width: 100%;
+      height: 150px;
+      display: flex;
+      justify-content: center;
+      box-shadow: 0 .5rem 1rem rgba(65, 62, 62, 0.2);
+      margin: 0px 0px 30px 0px;
+      padding:0px 0px 0px 0px;
+    }
+    
+    .contact1{
+      width:100%;
+      height:150px;
+      object-fit:cover;
+      position: relative;
+      z-index: -100;
+      margin: 0px 0px 30px 0px;
+      padding:0px 0px 0px 0px
+    }
+    .in-class-contact1{
+      position: absolute;
+      align-self: center;
+      font-size: 2.5rem;
+      font-family:cursive;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      animation-name:  in-class-slide;
+      animation-duration: 1.45s;
+      margin: 60px 0px 0px 0px;
+      padding:0px 0px 0px 0px
+      
+    }
+    
+    .footer-box-contact{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height:180px;
+      justify-content: center;
+      position: relative;
+      background-attachment: fixed;
+      margin: 300px 0px 0px 0px;
+      padding:0px 0px 0px 0px
+    
+    }
+    .footer-pic-contact{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+      position: relative;
+      z-index: -100;
+      margin-top: 70px;
+    }
+    .footer-text-contact{
+      position: absolute;
+      font-size: .9rem;
+      font-family:cursive;
+      color: rgb(255, 255, 255);
+      font-weight: 700;
+      text-align: center;
+      margin: 75px 0px 0px 0px;
+      padding:0px 0px 0px 0px
+    }
+    .last-man{
+      font-size: 1rem;
+      color: red;
+    }
+    .last-man2{
+      font-size: 1.2rem;
+    }
+  
+  .page-content{
+    width:100%;
+    margin:100px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1rem
+  }
+  .email{
+    font-size:1rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1rem
+  
+  }
+  
+  .social-contact{
+    width: 60%;
+  } 
+  
+  
+  .message{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+  }
+  
+  .first-one{
+      height: 25px;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 0px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 100px;
+    height: 35px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 20px 0px 0px 0px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 15px;
+  border-width: 5px;
+  height: 40px;
+  width: 40px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  }
+    
+
+
+
+@media(max-width:566px){
+  .picture-contact1{
+    width: 100%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2rem;
+    margin: 60px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+    
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 300px;
+  }
+  .footer-text-contact{
+    margin-top: 300px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.2rem;
+  }
+
+
+
+
+  .page-content{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    justify-content:space-around;
+    align-items:start;
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      align-content: center;
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 2rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1.2rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1.2rem
+  }
+  .email{
+    font-size:1.2rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1.2rem
+  
+  }
+  
+  
+  .message{
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      align-self: center;
+      height: 30px;
+      width:200%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 50px;
+
+}
+.social-contact{
+  flex:1;
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+
+
+@media(max-width:431px){
+  .picture-contact1{
+    width: 100%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2.5rem;
+    margin: 40px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 300px;
+  }
+  .footer-text-contact{
+    margin-top: 300px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.5rem;
+  }
+
+
+  .page-content{
+
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 2rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1.2rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1.2rem
+  }
+  .email{
+    font-size:1.2rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1.2rem
+  
+  }
+  
+  
+  .message{
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:180%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 60px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+
+@media(max-width:426px){
+  .picture-contact1{
+    width: 100%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2.5rem;
+    margin: 40px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 300px;
+  }
+  .footer-text-contact{
+    margin-top: 300px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.5rem;
+  }
+
+
+  .page-content{
+
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1.2rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1.2rem
+  }
+  .email{
+    font-size:1.2rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1.2rem
+  
+  }
+  
+  
+  .message{
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:180%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 60px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+@media(max-width:413px){
+  .picture-contact1{
+    width: 101%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2.5rem;
+    margin: 45px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 300px;
+  }
+  .footer-text-contact{
+    margin-top: 300px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.5rem;
+  }
+
+
+  .page-content{
+
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1.2rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1.2rem
+  }
+  .email{
+    font-size:1.2rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1.2rem
+  
+  }
+  
+  
+  .message{
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:160%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 60px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+@media(max-width:391px){
+  .picture-contact1{
+    width: 101%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2.5rem;
+    margin: 45px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 340px;
+  }
+  .footer-text-contact{
+    margin-top: 340px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.5rem;
+  }
+
+
+  .page-content{
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1rem
+  }
+  .email{
+    font-size:1rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1rem
+  
+  }
+  
+  
+  .message{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:150%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 60px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+@media(max-width:376px){
+  .picture-contact1{
+    width: 101%;
+
+  }
+  
+  .contact1{
+    width:100%;
+
+  }
+  .in-class-contact1{
+    font-size: 2.2rem;
+    margin: 50px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 340px;
+  }
+  .footer-text-contact{
+    margin-top: 340px;
+    font-size: .7rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: 1rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1.2rem;
+  }
+
+
+  .page-content{
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: 1rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: 1rem
+  }
+  .email{
+    font-size:1rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: 1rem
+  
+  }
+  
+  
+  .message{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:150%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 60px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
+
+@media(max-width:321px){
+  .picture-contact1{
+    width: 100%;
+
+  }
+  
+  .contact1{
+    width:100%;
+    height: 150px;
+  }
+  .in-class-contact1{
+    font-size: 2rem;
+    margin: 55px 0px 0px 0px;
+    padding:0px 0px 0px 0px
+  }  
+  .footer-box-contact{
+    width:103%;
+    margin-left: -3%;
+  
+  }
+  .footer-pic-contact{
+    width:103%;
+    height:160px;
+    margin-top: 340px;
+  }
+  .footer-text-contact{
+    margin-top: 340px;
+    font-size: .2rem;
+    text-align: center;
+  }
+  .last-man{
+    font-size: .8rem;
+    color: red;
+  }
+  .last-man2{
+    font-size: 1rem;
+  }
+
+
+  .page-content{
+    width:100%;
+    margin:60px 0px 0px 0px
+  }
+  
+  
+  .form {
+      width:100%;
+      margin: 50px 0px 0px 0px;
+  }
+  
+  .no-class{
+    width:100%; 
+  }
+  
+  .social-link{
+    width: 100%;
+    margin:0px 0px 70px 0px
+  
+  }
+  
+  .contact{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin:0px 0px 30px 0px
+    
+  }
+  
+  .Mobile-phone{
+    font-size: .8rem ;
+    
+  }
+  .phone{
+    font-weight: 700;
+    font-size: .8rem
+  }
+  .email{
+    font-size:.8rem ;
+  }
+  .mail{
+    font-weight: 700;
+    font-size: .8rem
+  
+  }
+  
+  
+  .message{
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin: 0px 0px 35px 0px;
+
+  }
+  
+  .first-one{
+      height: 30px;
+      width:125%;
+      border-width: 2px;
+      font-weight: 700;
+      font-size: 1rem;
+      border-radius: 10px;
+      margin: 0px 0px 0px 75px; 
+  }
+  #contactForm{
+    width:75%;
+    row-gap: 15px;
+  }
+  .submit-button{
+    width: 120px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-width: 0;
+    border-radius: 10px;
+    margin: 30px 0px 0px 70px;
+
+}
+.social-contact{
+  width: 80%;
+  margin: -20px 0px 0px 0px;
+} 
+
+.whatsapp{
+  border-radius: 20px;
+  border-width: 5px;
+  height: 45px;
+  width: 45px;
+
+}
+
+
+.whatsapp-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+}
+
+.telegram-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -13px;
+    font-weight: 700;
+
+}
+
+.skype-text{
+    font-size:1.3rem;
+    margin:-1px 0px 5px -2px;
+    font-weight: 700;
+
+}
+
+.instagram-text{
+    font-size:1.3rem;;
+    margin:-1px 0px 5px -15px;
+    font-weight: 700;
+}
+  
+  
+}
+
