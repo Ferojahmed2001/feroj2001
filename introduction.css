@@ -306,7 +306,7 @@
 .grid-box{
     display: flex;
     flex-direction: column;
-    height:400px;
+    height:450px;
     width:60%;
     border-color: rgb(73, 73, 74);
     border-style:ridge;
@@ -315,9 +315,6 @@
 
 }
 .grid-box:hover{
-    display: flex;
-    flex-direction: column;
-    height:400px;
     width:60%;
     border-color: rgb(42, 39, 238);
     border-style:ridge;
@@ -335,11 +332,11 @@
     margin: 0px 0px 0px 0px;
     padding:5px 0px 0px 0px;
     text-align:center;
-    font-size: 150%;
+    font-size: 1.25rem;
     color: rgb(254, 10, 10);
 }
 .grid-write{  
-    height: 120px;
+    height: 170px;
     width:100%;
     font-size: 1.1rem;
     font-weight: 600;
@@ -361,10 +358,6 @@
     color: rgb(0, 0, 0);
 }
 .link:hover{  
-    height: 120px;
-    width:100%;
-    font-size: 1.1rem;
-    font-weight: 600;
     font-family: 'Times New Roman', Times, serif; 
     text-align: justify;
     align-content: center;
@@ -372,10 +365,6 @@
     text-decoration: underline;
 }
 .link:active{  
-    height: 120px;
-    width:100%;
-    font-size: 1.1rem;
-    font-weight: 600;
     font-family: 'Times New Roman', Times, serif; 
     text-align: justify;
     align-content: center;
@@ -383,7 +372,7 @@
     text-decoration: none;
 }
 .written{
-    margin: 0px 5px 0px 5px;
+    margin: 20px 5px 0px 5px;
     
 }
 .Image{
@@ -484,7 +473,7 @@
         margin:35px 0px 0px 0px; 
     }
     .grid-box{
-        height:300px;
+        height:350px;
         width:75%;
     
     }
@@ -492,14 +481,21 @@
         height: 200px;
         width: 100%;
     }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        text-align:center;
+        font-size: 1rem;
+        color: rgb(254, 10, 10);
+    }
     .grid-write{  
-        height: 100px;
+        height: 150px;
         width:100%;
         font-size: .8rem;
         font-weight: 600;
     }
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 10px 5px 2px 5px;
     } 
 } 
 
@@ -593,17 +589,29 @@
     
     }
     .grid-image{
-        height: 200px;
+        height: 190px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 110px;
         width:100%;
         font-size: .8rem;
         font-weight: 600;
     }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        text-align:center;
+        font-size: .9rem;
+        color: rgb(254, 10, 10);
+    }
+    .link{  
+        width:100%;
+        font-size: .75rem;
+        font-weight: 600;
+    }
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 8px 5px 2px 5px;
     } 
 } 
 
@@ -741,13 +749,24 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .8rem;
+        font-weight: 600;
+    }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .85rem;
+
+    }    
+    .link{  
+        width:100%;
+        font-size: .75rem;
         font-weight: 600;
     }
     .written{
@@ -756,7 +775,7 @@
     
 }
 
-@media(max-width:431px){
+@media(max-width:466px){
     .introduction{
         width:100%;
         padding-top: 0%;
@@ -875,7 +894,7 @@
         
      }
     .grid-box{
-        height:250px;
+        height:300px;
         width:65%;
         margin: 0px 0px 0px 0px;
     }
@@ -884,13 +903,24 @@
         width: 100%;
     }
     .grid-write{  
-        height: 70px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
     }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .75rem;
+
+    } 
+    .link{  
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }    
     .written{
-        margin-top: 2px 5px 2px 5px;
+        margin-top: 5px 5px 2px 5px;
     } 
     
 }
@@ -1027,8 +1057,19 @@
         font-size: .55rem;
         font-weight: 600;
     }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .75rem;
+
+    } 
+    .link{  
+        width:100%;
+        font-size: .55rem;
+        font-weight: 600;
+    }    
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 5px 5px 2px 5px;
     }  
     
 }
@@ -1165,8 +1206,19 @@
         font-size: .6rem;
         font-weight: 600;
     }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .75rem;
+
+    } 
+     .link{  
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }   
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 5px 5px 2px 5px;
     }   
     
 }
@@ -1295,17 +1347,28 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 170px;
+        height: 150px;
         width: 100%;
     }
     .grid-write{  
-        height: 80px;
+        height: 100px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .65rem;
+
+    } 
+    .link{  
         width:100%;
         font-size: .6rem;
         font-weight: 600;
     }
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 5px 5px 2px 5px;
     }  
     
 }
@@ -1443,17 +1506,22 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 170px;
+        height: 150px;
         width: 100%;
     }
     .grid-write{  
-        height: 80px;
+        height: 100px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .link{  
         width:100%;
         font-size: .6rem;
         font-weight: 600;
     }
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 5px 5px 2px 5px;
     }   
     
 }
@@ -1578,7 +1646,7 @@
         
      }
     .grid-box{
-        height:230px;
+        height:250px;
         width:70%;
         margin: 0px 0px 0px 0px;
     }
@@ -1587,13 +1655,24 @@
         width: 100%;
     }
     .grid-write{  
-        height: 80px;
+        height: 100px;
+        width:100%;
+        font-size: .6rem;
+        font-weight: 600;
+    }
+    .title{
+        margin: 0px 0px 0px 0px;
+        padding:5px 0px 0px 0px;
+        font-size: .6rem;
+
+    } 
+    .link{  
         width:100%;
         font-size: .6rem;
         font-weight: 600;
     }
     .written{
-        margin: 2px 5px 2px 5px;
+        margin: 5px 5px 2px 5px;
     }  
     
 }  
