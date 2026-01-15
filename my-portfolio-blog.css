@@ -53,7 +53,7 @@
 .grid-box{
     display: flex;
     flex-direction: column;
-    height:450px;
+    height:480px;
     width:60%;
     border-color: rgb(rgb(0, 0, 0));
     border-style:groove;
@@ -69,11 +69,11 @@
 }   
 
 .grid-image{
-    height: 300px;
+    height: 320px;
     width: 100%;
 }
 .grid-write{  
-    height: 150px;
+    height: 160px;
     width:100%;
     font-size: 1rem;
     font-weight: 600;
@@ -180,7 +180,7 @@
         margin:35px 0px 0px 0px; 
     }
     .grid-box{
-        height:350px;
+        height:375px;
         width:75%;
     
     }
@@ -189,7 +189,7 @@
         width: 100%;
     }
     .grid-write{  
-        height: 125px;
+        height: 150px;
         width:100%;
         font-size: .9rem;
         font-weight: 600;
@@ -221,7 +221,7 @@
         margin:35px 0px 0px 0px; 
     }
     .grid-box{
-        height:350px;
+        height:375px;
         width:75%;
     
     }
@@ -230,7 +230,7 @@
         width: 100%;
     }
     .grid-write{  
-        height: 125px;
+        height: 150px;
         width:100%;
         font-size: .8rem;
         font-weight: 600;
@@ -299,11 +299,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .65rem;
         font-weight: 600;
@@ -335,11 +335,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .65rem;
         font-weight: 600;
@@ -372,11 +372,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
@@ -409,11 +409,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
@@ -445,11 +445,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 200px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
@@ -483,11 +483,11 @@
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 180px;
+        height: 150px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 130px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
