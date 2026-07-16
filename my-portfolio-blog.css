@@ -262,7 +262,7 @@
     .grid-write{  
         height: 150px;
         width:100%;
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: 600;
     }
 
@@ -272,7 +272,7 @@
 
     }
     .written{
-        font-size: .8rem;
+        font-size: .7rem;
  
     }  
 }
@@ -306,16 +306,16 @@
     .grid-write{  
         height: 125px;
         width:100%;
-        font-size: .7rem;
+        font-size: .6rem;
         font-weight: 600;
     }
     .title{
         height: 20%;
-        font-size: 130%;
+        font-size: 140%;
 
     }
     .written{
-        font-size: .8rem;
+        font-size: .6rem;
  
     }  
 }
@@ -347,7 +347,7 @@
     .grid-write{  
         height: 120px;
         width:100%;
-        font-size: .65rem;
+        font-size: .6rem;
         font-weight: 600;
     }
     .title{
@@ -356,7 +356,7 @@
 
     }
     .written{
-        font-size: .75rem;
+        font-size: .6rem;
  
     }  
 }
@@ -389,9 +389,18 @@
     .grid-write{  
         height: 120px;
         width:100%;
-        font-size: .65rem;
+        font-size: .6rem;
         font-weight: 600;
     }  
+    .title{
+        height: 20%;
+        font-size: 130%;
+
+    }
+    .written{
+        font-size: .6rem;
+ 
+    } 
 }
 
 
@@ -423,9 +432,13 @@
     .grid-write{  
         height: 120px;
         width:100%;
-        font-size: .6rem;
+        font-size: .55rem;
         font-weight: 600;
     }
+    .written{
+        font-size: .55rem;
+ 
+    } 
   
 }
 
@@ -458,7 +471,7 @@
     .grid-write{  
         height: 120px;
         width:100%;
-        font-size: .6rem;
+        font-size: .55rem;
         font-weight: 600;
     }
     .title{
@@ -467,7 +480,7 @@
 
     }
     .written{
-        font-size: .7rem;
+        font-size: .55rem;
  
     } 
 }
@@ -500,7 +513,7 @@
     .grid-write{  
         height: 120px;
         width:100%;
-        font-size: .6rem;
+        font-size: .55rem;
         font-weight: 600;
     }
     .title{
@@ -509,7 +522,7 @@
 
     }
     .written{
-        font-size: .7rem;
+        font-size: .55rem;
  
     } 
 }
@@ -544,10 +557,17 @@
     .grid-write{  
         height: 130px;
         width:100%;
-        font-size: .6rem;
+        font-size: .5rem;
         font-weight: 600;
+    } 
+    .title{
+        height: 20%;
+        font-size: 130%;
+
     }
     .written{
+        font-size: .5rem;
         margin: 2px 5px 2px 5px;
-    }   
+ 
+    }  
 }
