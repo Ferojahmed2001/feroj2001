@@ -727,7 +727,7 @@
     }
     .activity{
         font-size: 2rem;
-        margin: -60px auto 0px auto;
+        margin: 60px auto 0px auto;
    
     }
     
@@ -1058,11 +1058,11 @@
     }    
     .title{
         height: 20%;
-        font-size: 130%;
+        font-size: 150%;
 
     }
     .written{
-        font-size: .8rem;
+        font-size: .6rem;
  
     } 
     
@@ -1185,7 +1185,7 @@
         
      }
     .grid-box{
-        height:250px;
+        height:300px;
         width:65%;
         margin: 0px 0px 0px 0px;
     }
@@ -1194,14 +1194,14 @@
         width: 100%;
     }
     .grid-write{  
-        height: 70px;
+        height: 120px;
         width:100%;
-        font-size: .55rem;
+        font-size: .6rem;
         font-weight: 600;
     }
     .link{  
         width:100%;
-        font-size: .55rem;
+        font-size: .6rem;
         font-weight: 600;
     }    
     .title{
@@ -1210,7 +1210,7 @@
 
     }
     .written{
-        font-size: .75rem;
+        font-size: .6rem;
  
     }  
     
@@ -1344,7 +1344,7 @@
         font-weight: 600;
     }     
     
-}
+} 
 
 
 @media(max-width:391px){
@@ -1455,15 +1455,15 @@
         
      }
     .grid-box{
-        height:250px;
+        height:300px;
         width:68%;
     }
     .grid-image{
-        height: 150px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
@@ -1479,7 +1479,7 @@
 
     }
     .written{
-        font-size: .7rem;
+        font-size: .6rem;
  
     } 
     
@@ -1596,15 +1596,15 @@
         
      }
     .grid-box{
-        height:250px;
+        height:300px;
         width:70%;
     }
     .grid-image{
-        height: 150px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
         font-size: .6rem;
         font-weight: 600;
@@ -1620,7 +1620,7 @@
 
     }
     .written{
-        font-size: .7rem;
+        font-size: .6rem;
  
     } 
     
@@ -1736,24 +1736,24 @@
         
      }
     .grid-box{
-        height:250px;
+        height:300px;
         width:70%;
         margin: 0px 0px 0px 0px;
     }
     .grid-image{
-        height: 150px;
+        height: 180px;
         width: 100%;
     }
     .grid-write{  
-        height: 100px;
+        height: 120px;
         width:100%;
-        font-size: .6rem;
+        font-size: .5rem;
         font-weight: 600;
     }
 
     .link{  
         width:100%;
-        font-size: .6rem;
+        font-size: .5rem;
         font-weight: 600;
     }
     .written{
