@@ -41,20 +41,20 @@
     object-position: center;
     border-width: 5px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 25px rgba(33, 49, 35, 0.997);
+    box-shadow: 0px 0px 25px rgba(62, 63, 71, 0.997);
 }
 .profile-picture:hover{
     border-style:inherit;
     border-width: 2px;
-    box-shadow: 0px 0px 35px rgba(255, 57, 7, 0.997);
-    border-color: rgb(165, 0, 0);
+    box-shadow: 0px 0px 35px rgba(23, 38, 252, 0.997);
+    border-color: rgb(23, 38, 252);
     cursor: pointer;
 }
 .profile-picture:active{
     border-style:solid;
     border-width: 2px;
-    box-shadow: 0px 0px 35px rgba(247, 18, 236, 0.997);
-    border-color: rgb(157, 10, 140);
+    box-shadow: 0px 0px 35px rgba(23, 38, 252, 0.997);
+    border-color: rgb(23, 38, 252);
 }
 
 
@@ -77,11 +77,10 @@
 
 .name-text{
     width: 65%;
-    color: rgb(29, 31, 33);
+    color: rgb(0, 0, 0);
     font-family:"Roboto Slab", serif;
     font-weight: 700;
     font-size: 1.8rem;
-    color:rgb(227, 21, 10) ;
     animation-name: slideleft;
     animation-duration: 2s ;   
     margin: 10px 0px 0px 0px;
@@ -112,8 +111,8 @@
 }
 
 .cv-button{
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 90);
     width: 115px;
     height: 35px;
     font-family: "Roboto Slab", serif;
@@ -134,13 +133,13 @@
 }
 .cv-button:active{
     box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 88, 15, 0.97);
 
 }
 .hire-button{
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 90);
     width: 105px;
     height: 35px;
     font-family: "Roboto Slab", serif;
@@ -161,14 +160,14 @@
 }
 .hire-button:active{
     box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 88, 15, 0.97);
 
 }
 
 .aboutme-button{
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 10, 90);
     width: 105px;
     height: 35px;
     font-family: "Roboto Slab", serif;
@@ -188,8 +187,8 @@
 }
 .aboutme-button:active{
     box-shadow: 9px 9px 10px rgba(79, 68, 67, 0.7);
-    color: rgb(227, 21, 10);
-    background-color: rgba(244, 231, 88, 0.97);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 88, 15, 0.97);
 
 }
 
