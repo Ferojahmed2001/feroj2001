@@ -208,7 +208,7 @@
     height: 50px;
     box-shadow: 7px 7px 7px rgba(0,0,0,.1);
     border-radius: 20px;
-    background-color: rgb(251, 237, 237);
+    background-color: rgb(1, 10, 90);
     border-width: 5px;
     border-style: solid;
     border-color: rgb(11, 0, 162);
@@ -308,7 +308,7 @@
     flex-direction: column;
     height:500px;
     width:60%;
-    border-color: rgb(73, 73, 74);
+    border-color: rgb(1, 10, 90);
     border-style:ridge;
     border-width: 5px;
     box-shadow: 0px 0px 20px rgb(73, 73, 74);
