@@ -41,8 +41,8 @@
     object-position: center;
     border-width: 5px;
     margin: auto auto auto auto;
-    border-color:rgba(244, 231, 88, 0.97, 0.997);
-    box-shadow: 0px 0px 25px rgba(244, 231, 88, 0.97, 0.997);
+    border-color:rgba(231, 88, 0.97, 0.997);
+    box-shadow: 0px 0px 25px rgba(231, 88, 0.97, 0.997);
 }
 .profile-picture:hover{
     border-style:inherit;
