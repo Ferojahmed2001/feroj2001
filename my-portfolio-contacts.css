@@ -167,7 +167,7 @@
   .whatsapp{
     box-shadow: 7px 7px 7px rgba(0,0,0,.1);
     border-radius: 20px;
-    background-color: rgb(1, 10, 90);
+    border-color: rgb(1, 10, 90);
     border-width: 5px;
     border-style: solid;
     border-color: black;
@@ -202,7 +202,7 @@
 
   .telegram-text{
       position:absolute;
-      color:rgb(227, 21, 10);
+      border-color:rgb(227, 21, 10);
       font-family:"Roboto Slab", serif;
       font-size:1.3rem;
       margin:-1px 0px 5px -13px;
@@ -217,7 +217,7 @@
 
   .skype-text{
       position:absolute;
-      color:rgb(227, 21, 10);
+      border-color:rgb(227, 21, 10);
       font-family:"Roboto Slab", serif;
       font-size:1.3rem;
       margin:-1px 0px 5px -2px;
@@ -231,7 +231,7 @@
 
   .instagram-text{
       position:absolute;
-      color:rgb(227, 21, 10);
+      border-color:rgb(227, 21, 10);
       font-family:"Roboto Slab", serif;
       font-size:1.3rem;;
       margin:-1px 0px 5px -15px;
