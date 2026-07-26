@@ -41,13 +41,14 @@
     object-position: center;
     border-width: 5px;
     margin: auto auto auto auto;
-    box-shadow: 0px 0px 25px rgba(62, 63, 71, 0.997);
+    border-color:rgba(244, 231, 88, 0.97, 0.997);
+    box-shadow: 0px 0px 25px rgba(244, 231, 88, 0.97, 0.997);
 }
 .profile-picture:hover{
     border-style:inherit;
     border-width: 2px;
-    box-shadow: 0px 0px 35px rgba(23, 38, 252, 0.997);
-    border-color: rgb(23, 38, 252);
+    box-shadow: 0px 0px 35px rgba(1, 10, 90, 0.997);
+    border-color: rgb(1, 10, 90);
     cursor: pointer;
 }
 .profile-picture:active{
@@ -208,16 +209,15 @@
     height: 50px;
     box-shadow: 7px 7px 7px rgba(0,0,0,.1);
     border-radius: 20px;
-    background-color: rgb(1, 10, 90);
+    border-color: rgb(1, 10, 90);
     border-width: 5px;
     border-style: solid;
-    border-color: rgb(11, 0, 162);
     transition: box-shadow 0.3s,border-color 0.3s;
 }
 
 .profile-icon:hover{
   box-shadow: 7px 7px 7px rgba(0,0,0,.7);
-  border-color: rgb(227, 21, 10);
+  border-color: rgb(1, 10, 90);
   transition: box-shadow 0.3s,border-color 0.3s
 }
 
